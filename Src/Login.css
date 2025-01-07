@@ -1,0 +1,27 @@
+/* Ajustes para la imagen de fondo y la altura de la sección */
+.h-custom-2 {
+    height: calc(100vh - 20px); /* Resta un poco para evitar el scroll */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    margin-bottom: 20px; /* Espacio para separar del formulario */
+}
+
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+@media (min-width: 1025px) {
+    .h-custom-2 {
+        height: 100vh; /* Ajusta la altura para pantallas grandes */
+    }
+}

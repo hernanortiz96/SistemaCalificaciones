@@ -1,0 +1,15 @@
+.tabla-boletines {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.tabla-boletines th, .tabla-boletines td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.tabla-boletines th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}

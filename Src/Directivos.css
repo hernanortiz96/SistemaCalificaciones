@@ -1,0 +1,51 @@
+/* Estilos para impresión */
+        @media print {
+            body {
+                text-align: left;
+            }
+            .boletin {
+                page-break-inside: avoid;
+            }
+            .boletin:nth-child(2n) {
+                page-break-after: always;
+            }
+            .navbar, .btn {
+                display: none; 
+            }
+        }
+        body {
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .boletin {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px auto;
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+            background-color: #f9f9f9;
+        }
+        .tabla-boletines {
+            margin: 15px auto;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .tabla-boletines th, .tabla-boletines td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        .tabla-boletines th {
+            background-color: #f2f2f2;
+        }
+        h1, h2, h3, h4 {
+            margin: 10px 0;
+        }
+
+        
+ 
